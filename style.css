@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+/* Toolbar / navbar style */
+
 * {
     padding: 0;
     margin: 0;
@@ -56,8 +58,7 @@ ul li a:hover {
     text-decoration: underline;
 }
 
-#log-in,
-#sign-up {
+#log-in, #sign-up {
     border-radius: 5px;
     padding: 5px 8px;
 }
@@ -128,7 +129,7 @@ ul li a:hover {
     margin-left: 0 !important;
 }
 
-/*For smartphones*/
+/* For smartphones */
 
 @media (max-width: 800px) {
     header {

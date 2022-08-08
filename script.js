@@ -6,5 +6,7 @@
  * this element, which contains the elements that the CSS class "open" affects.
  */
 function toggleMobileMenu(menu) {
+
     menu.classList.toggle('open');
+    
 }
